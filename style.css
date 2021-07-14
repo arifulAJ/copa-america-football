@@ -1,0 +1,242 @@
+/* font of popiens */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* header content */
+.head-content {
+    background-color: #2D25A0;
+    height: 677px;
+
+}
+
+
+/* navigation bar */
+.navigation {
+    height: 44px;
+    width: 1160px;
+    padding-left: 120px;
+    padding-top: 24px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.nav-item li {
+    display: inline-block;
+    list-style: none;
+    padding: 7px 22px;
+
+}
+
+.nav-item li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    ;
+
+}
+
+.logo {
+    background: #E02C6D;
+
+}
+
+/* article */
+.heading-article-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section-hed {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+    padding: 142px 132px 27px 156px;
+}
+
+.heading-section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 64px;
+    width: 485px;
+    height: 230px;
+    padding-bottom: 28px;
+
+
+}
+
+/* first content button */
+.btn {
+    padding: 27px 449px 169px 156px;
+}
+
+.heder-btn {
+    background: #E02C6D;
+    width: 168px;
+    height: 44px;
+    margin: 0px;
+    padding: 10px 24px;
+    color: white;
+
+}
+
+/* header content img */
+.headig-img {
+    padding: 75px 110.5px 78px 32px;
+    width: 556.01px;
+    height: 438px;
+    margin: 0px;
+
+
+}
+
+.headig-img img {
+    width: 100%;
+
+}
+
+/* section player of article  */
+.player-article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 70px 200px 0px 150px;
+
+}
+
+.players {
+    width: 252px;
+    height: 444px;
+    padding: 16px 28px;
+    box-shadow: 1px 1px 27px lightgrey;
+    margin: 20px;
+}
+
+.players img {
+    width: 100%;
+}
+
+.players h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 28;
+}
+
+.players p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+/* greatest food baller  */
+.greatest-food-baller {
+    padding: 75px 48px;
+    margin: 19px 67px;
+}
+
+.players-body {
+    display: flex;
+
+
+}
+
+.headin-great-player {
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.great-player {
+    text-align: center;
+    width: 500px;
+    padding: 51px;
+    border-radius: 20px;
+    margin: 36px;
+    box-shadow: 3px 4px 10px grey;
+}
+
+.great-player img {
+    border-radius: 10px;
+}
+
+.great-player p {
+    text-align: justify;
+}
+
+/* match highlight  */
+.highlight-copa-match {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.highlight {
+    width: 440px;
+    height: 300px;
+    text-align: center;
+    padding: 95px;
+
+
+}
+
+.highlight h1 {
+    font-size: 48px;
+}
+
+.highlight p {
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    text-align: justify;
+}
+
+.highlight img {
+    width: 550px;
+    height: 400px;
+}
+
+/* logo section  */
+.football-logo {
+    text-align: center;
+    width: 483px;
+    height: 213px;
+    transform: translate3d(367px, 144px, 30px);
+}
+
+.football-logo img {
+    width: 100%;
+}
+
+/* social media icon  */
+.social-media {
+    width: 250px;
+    text-align: center;
+    height: 32px;
+    transform: translate3d(471px, 87px, 10px);
+}
+
+
+.social-media a {
+    color: rgb(90 87 87);
+    padding: 10px;
+    margin: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+/* footer area  */
+.footer {
+    width: 330px;
+    height: 31px;
+    text-align: center;
+    transform: translate3d(436px, 104px, 10px);
+    padding-bottom: 30px;
+}
