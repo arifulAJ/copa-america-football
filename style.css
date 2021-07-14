@@ -209,7 +209,7 @@
     transform: translate3d(367px, 144px, 30px);
 }
 
-.football-logo img {
+.img {
     width: 100%;
 }
 
@@ -240,3 +240,79 @@
     transform: translate3d(436px, 104px, 10px);
     padding-bottom: 30px;
 }
+
+/* media quarry */
+
+@media only screen and (max-width:688px) {
+
+
+    .head-content {
+        width: fit-content;
+        background-color: #2D25A0;
+        height: auto;
+    }
+
+    .heading-article-content {
+        display: flex;
+        flex-direction: column;
+
+        align-content: space-around;
+        width: fit-content;
+    }
+
+    .player-article {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .players {
+        width: 475px;
+        height: auto;
+        padding-bottom: 5px;
+        margin-left: -18px;
+    }
+
+    .greatest-food-baller,
+    .players-body {
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .highlight-copa-match {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .highlight-copa-match .highlight {
+        width: 400px;
+
+    }
+
+    .football-logo {
+        width: 355px;
+        transform: translate3d(180px, 140px, 10px);
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .social-media {
+        transform: translate3d(261px, 24px, 10px);
+    }
+    .footer {
+        transform: translate3d(220px, 54px, 10px);
+    }
+
+
+}
+
+/* @media only screen and (min-width:688px)and(max-width:992px) {
+   .heading-article-content{
+       background-color: red;
+   }
+} */
